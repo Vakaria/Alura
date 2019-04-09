@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget id="com.mg.app" 
+        version="1.0.0" 
+        xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://cordova.apache.org/ns/1.0" 
+        xmlns:android = "http://schemas.android.com/apk/res/android">
+    
+    <name>Só de Cenoura</name>
+
+    <description>
+        Menu do restaurante Só de Cenoura
+    </description>
+
+    <author href="http://matheus.org" email="lala@matheus.com">
+        Matheus Nachtigall
+    </author>
+
+    <icon src="icon.png" platform="android" qualifier="ldpi" />
+
+    <plugin name="cordova-plugin-splashscreen" />
+    <gap:splash src="splash.png" />
+    <preference name="orientation" value="portrait"/>
+    <preference name="fullscreen" value="true"/>
+    <preference name="permissions" value="none" />
+
+    <gap:platform name="android" />
+</widget>
